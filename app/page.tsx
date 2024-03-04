@@ -1,8 +1,6 @@
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import HeroParallaxDemo from "@/components/main/Para";
-import Particle from "@/components/main/Particle";
-import PinComponent from "@/components/main/PinComp";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import { TextRevealCardPreview } from "@/components/main/TextRevealCardPreview";
@@ -15,7 +13,6 @@ export default function Home() {
         <Skills />
         <HeroParallaxDemo/>
         <Projects />
-       <PinComponent/>
 
       </div>
     </main>
