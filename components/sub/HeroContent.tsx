@@ -9,14 +9,20 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Particle from "../main/Particle";
 
 const HeroContent = () => {
   return (
+    <>
+    <div className="absolute right-0 top-0 h-full w-[100%] z-[2]">
+        <Particle />
+      </div>
     <motion.div
       initial="hidden"
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
+      
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
@@ -26,6 +32,7 @@ const HeroContent = () => {
           <h1 className="Welcome-text text-[13px]">
             Fullstack Developer Portfolio
           </h1>
+
         </motion.div>
 
         <motion.div
@@ -69,6 +76,7 @@ const HeroContent = () => {
         />
       </motion.div>
     </motion.div>
+    </>
   );
 };
 

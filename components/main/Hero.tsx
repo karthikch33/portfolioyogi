@@ -1,5 +1,6 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
+import Particle from "./Particle";
 
 const Hero = () => {
   return (
@@ -13,7 +14,9 @@ const Hero = () => {
         <source src="/blackhole.webm" type="video/webm" />
       </video>
       <HeroContent />
+      
     </div>
+    
   );
 };
 
