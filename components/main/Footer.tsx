@@ -9,6 +9,7 @@ import {
 } from "react-icons/rx";
 
 import { FaYoutube } from "react-icons/fa";
+import { CardStackDemo } from "./CardStackDemo";
 
 const Footer = () => {
   return (
@@ -33,19 +34,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                    </p>
+                    <CardStackDemo/>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">About</div>
@@ -65,8 +54,8 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
-            </div>
+            <p>&copy; Congratulations! You've reached the bottom of the internet's rabbit hole! 🐰🕳️ All Rights Reserved, but if you find any lefts, feel free to make a U-turn and explore again!</p>
+                </div>
         </div>
     </div>
   )

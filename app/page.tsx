@@ -1,3 +1,4 @@
+import { CardStackDemo } from "@/components/main/CardStackDemo";
 import Hero from "@/components/main/Hero";
 import HeroParallaxDemo from "@/components/main/Para";
 import Projects from "@/components/main/Projects";
