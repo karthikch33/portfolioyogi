@@ -1,6 +1,6 @@
+"use client";
 import React from "react";
 import HeroContent from "../sub/HeroContent";
-import Particle from "./Particle";
 
 const Hero = () => {
   return (

@@ -5,7 +5,7 @@ module.exports = nextConfig
 
 
 module.exports = {
-    images: {
-      domains: ['aceternity.com'], // Replace with your domain
-    },
-  };
+  images: {
+    domains: ['aceternity.com', 'images.unsplash.com','localhost'], // Replace 'aceternity.com' with your domain
+  },
+};
