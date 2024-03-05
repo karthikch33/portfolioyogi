@@ -2,7 +2,6 @@ import Hero from "@/components/main/Hero";
 import HeroParallaxDemo from "@/components/main/Para";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
-import { ThreeDCardDemo } from "@/components/main/ThreeDCardDemo";
 
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
           <Skills />
           <HeroParallaxDemo />
           <Projects />
-          <ThreeDCardDemo/>
         </div>
     </main>
   );

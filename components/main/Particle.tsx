@@ -322,11 +322,7 @@ const Particle = () => {
         "width": 1920,
         "height": 1080
       },
-      "limit": {
-        "mode": "delete",
-        "value": 0
-      },
-      "value": 180
+      "value": 100
     },
     "opacity": {
       "value": 1,
