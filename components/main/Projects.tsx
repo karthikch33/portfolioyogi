@@ -1,7 +1,11 @@
 "use client";
 import React from "react";
-import ProjectCard from "../sub/ProjectCard";
-import { ThreeDCardDemo } from "./ThreeDCardDemo";
+import { Card6 } from "./CARD/Card6";
+import { Card1 } from "./CARD/Card1";
+import { Card2 } from "./CARD/Card2";
+import { Card3 } from "./CARD/Card3";
+import { Card4 } from "./CARD/Card4";
+import { Card5 } from "./CARD/Card5";
 
 const Projects = () => {
   return (
@@ -13,12 +17,12 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex justify-center flex-wrap gap-6">
-        <ThreeDCardDemo/>
-        <ThreeDCardDemo/>
-        <ThreeDCardDemo/>
-        <ThreeDCardDemo/>
-        <ThreeDCardDemo/>
-        <ThreeDCardDemo/>
+        <Card1/>
+        <Card2/>
+        <Card3/>
+        <Card4/>
+        <Card5/>
+        <Card6/>
 
       </div>
     </div>

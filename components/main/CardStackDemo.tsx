@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "@/utils/cn";
 import { CardStack } from "../sub/card-stack";
 export function CardStackDemo() {
@@ -36,7 +37,7 @@ const CARDS = [
       designation: "KL University",
       content: (
         <p>
-          As the Director of the School of Competitive Coding at KLU, I organized and led various <Highlight> coding events</Highlight> and <Highlight>bootcamps</Highlight> aimed at enhancing students' programming skills.
+          As the Director of the School of Competitive Coding at KLU, I organized and led various <Highlight> coding events</Highlight> and <Highlight>bootcamps</Highlight> aimed at enhancing student's programming skills.
         </p>
       ),
     },
@@ -56,7 +57,7 @@ const CARDS = [
       designation: "NCC, 22(A) Battalion, Tenali",
       content: (
         <p>
-          As an Under Officer in the National Cadet Corps (NCC), 22(A) Battalion, Tenali, I played a pivotal role in fostering <Highlight>discipline</Highlight>, <Highlight>leadership</Highlight>, and <Highlight>camaraderie</Highlight> among cadets. 
+          As an Under Officernpm i react-vertical-timeline-component in the National Cadet Corps (NCC), 22(A) Battalion, Tenali, I played a pivotal role in fostering <Highlight>discipline</Highlight>, <Highlight>leadership</Highlight>, and <Highlight>camaraderie</Highlight> among cadets. 
         </p>
       ),
     },

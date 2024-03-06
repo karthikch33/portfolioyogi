@@ -1,4 +1,3 @@
-import { CardStackDemo } from "@/components/main/CardStackDemo";
 import Hero from "@/components/main/Hero";
 import HeroParallaxDemo from "@/components/main/Para";
 import Projects from "@/components/main/Projects";
@@ -10,9 +9,11 @@ export default function Home() {
     <main className="h-full w-full">
         <div className="flex flex-col gap-20">
           <Hero />
+
           <Skills />
           <HeroParallaxDemo />
           <Projects />
+          
         </div>
     </main>
   );
