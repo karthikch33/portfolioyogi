@@ -14,7 +14,7 @@ export default function Home() {
           <Skills />
           <HeroParallaxDemo />
           <Projects />
-<Certifications/>
+        <Certifications/>
 
         </div>
     </main>
