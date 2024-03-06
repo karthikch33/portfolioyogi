@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/main/Resume/ResumeNew.js", "components/main/Cert.tsx", "components/main/GitHub.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/main/Resume/ResumeNew.js", "components/main/Cert.tsx", "components/main/GitHub.js", "components/main/TimeLine.js"],
   "exclude": ["node_modules"]
 }
