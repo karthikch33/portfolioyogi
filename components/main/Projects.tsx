@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
-import { Card6 } from "./CARD/Card6";
-import { Card1 } from "./CARD/Card1";
-import { Card2 } from "./CARD/Card2";
-import { Card3 } from "./CARD/Card3";
-import { Card4 } from "./CARD/Card4";
-import { Card5 } from "./CARD/Card5";
+import { Card6 } from "./ProjectCards/Card6";
+import { Card1 } from "./ProjectCards/Card1";
+import { Card2 } from "./ProjectCards/Card2";
+import { Card3 } from "./ProjectCards/Card3";
+import { Card4 } from "./ProjectCards/Card4";
+import { Card5 } from "./ProjectCards/Card5";
 
 const Projects = () => {
   return (
-    <div
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center"
       className="flex flex-col items-center justify-center py-10"
       id="projects"
     >

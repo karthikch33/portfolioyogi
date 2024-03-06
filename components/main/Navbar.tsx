@@ -38,6 +38,9 @@ const Navbar = () => {
             <a href="#parallax" className="cursor-pointer">
               Parallax
             </a>
+            <a href="#certifications" className="cursor-pointer">
+            Certifications
+            </a>
           </div>
         </div>
 
