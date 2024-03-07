@@ -1,13 +1,13 @@
 export const Skill_data = [
     {
-      skill_name: "Html 5",
-      Image: "/html.png",
+      skill_name: "html 5",
+      Image: "/html-5.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Css",
-      Image: "/css.png",
+      skill_name: "css-3",
+      Image: "/css-3.png",
       width: 80,
       height: 80,
     },
@@ -18,8 +18,8 @@ export const Skill_data = [
       height: 65,
     },
     {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      skill_name: "tailwind-css-icon css-3",
+      Image: "/tailwind-css-icon.png",
       width: 80,
       height: 80,
     },
@@ -82,7 +82,7 @@ export const Skill_data = [
   
   export const Socials = [
     {
-      name: "Discord",
+      name: "Instagram",
       src: "/instagram.svg",
     },
     {
@@ -99,26 +99,26 @@ export const Skill_data = [
   
   export const Frontend_skill = [
     {
-      skill_name: "Html 5",
-      Image: "/html.png",
+      skill_name: "java",
+      Image: "/java.png",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Css",
-      Image: "/css.png",
+      skill_name: "c",
+      Image: "/c-original.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Java Script",
-      Image: "/js.png",
-      width: 65,
-      height: 65,
+      skill_name: "cpp",
+      Image: "/cpp.png",
+      width: 80,
+      height: 80,
     },
     {
-      skill_name: "Tailwind Css",
-      Image: "/tailwind.png",
+      skill_name: "python",
+      Image: "/python.svg",
       width: 80,
       height: 80,
     },
@@ -129,26 +129,26 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "React",
-      Image: "/react.png",
+      skill_name: "Spring",
+      Image: "/spring.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "Django",
+      Image: "/django.svg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Bootstrap",
+      Image: "/bootstrap.svg",
       width: 80,
       height: 80,
     },
     {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Type Script",
-      Image: "/ts.png",
+      skill_name: "postman",
+      Image: "/postman-icon.png",
       width: 80,
       height: 80,
     },
@@ -162,10 +162,10 @@ export const Skill_data = [
   
   export const Backend_skill = [
     {
-      skill_name: "Node js",
-      Image: "/node-js.png",
-      width: 80,
-      height: 80,
+      skill_name: "git",
+      Image: "/git-icon.png",
+      width: 85,
+      height: 85,
     },
     {
       skill_name: "Express js",
@@ -174,49 +174,49 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
+      skill_name: "AWS",
+      Image: "/aws.svg",
+      width: 85,
+      height: 85,
     },
     {
-      skill_name: "Fire base",
-      Image: "/Firebase.png",
-      width: 55,
-      height: 55,
+      skill_name: "Google cloud",
+      Image: "/google-cloud.svg",
+      width: 85,
+      height: 85,
     },
     {
       skill_name: "Postger SQL",
       Image: "/postger.png",
-      width: 70,
-      height: 70,
+      width: 80,
+      height: 80,
     },
     {
       skill_name: "My SQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
+      Image: "/mysqlworkbench.svg",
       width: 80,
       height: 80,
+    },
+    {
+      skill_name: "scala",
+      Image: "/scala-original.svg",
+      width: 80,
+      height: 80,
+    },
+    {
+      skill_name: "sqlite",
+      Image: "/file-type-sqlite.svg",
+      width: 85,
+      height: 85,
     },
   ];
   
   export const Full_stack = [
     {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
+      skill_name: "canva",
+      Image: "/canva-icon.png",
+      width: 80,
+      height: 80,
     },
     {
       skill_name: "Tauri",
