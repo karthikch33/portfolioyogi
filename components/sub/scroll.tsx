@@ -53,7 +53,6 @@ export const StickyScroll: React.FC<StickyScrollProps> = ({
     className="h-[30rem] overflow-y-auto flex justify-center relative space-x-20 rounded-md p-7"
     ref={ref}
     style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-    css={{ "&::-webkit-scrollbar": { display: "none" } }}
   >
     <div className="div relative flex items-start">
       <div className="max-w-full w-full h-full">
