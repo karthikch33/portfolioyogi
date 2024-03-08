@@ -1,4 +1,5 @@
 import Certifications from "@/components/main/Certifications";
+import { StickyScrollRevealDemo } from "@/components/main/Education";
 import Hero from "@/components/main/Hero";
 import HeroParallaxDemo from "@/components/main/Para";
 import Projects from "@/components/main/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
           <Hero />
 
           <Skills />
+          <StickyScrollRevealDemo/>
           <HeroParallaxDemo />
           <Projects />
         <Certifications/>

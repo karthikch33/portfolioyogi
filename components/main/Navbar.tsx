@@ -11,13 +11,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
-            src="/NavLogo.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          />
+   
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             Yogendra Chowdary
@@ -34,6 +28,9 @@ const Navbar = () => {
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="#education" className="cursor-pointer">
+              Education
             </a>
             <a href="#parallax" className="cursor-pointer">
               Parallax
